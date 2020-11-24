@@ -12,12 +12,7 @@ translator = Translator()
 idi = 209501902
 bot = telebot.TeleBot("1215240244:AAEtopoZty7Y12O_-sf-JA-yLyOqRno-1oE")
 driver = webdriver.Chrome('driver/chromedriver.exe')
-driver.get('https://translate.google.iq/?hl=ar')
 
-try:
-    driver.find_element_by_xpath('//*[@id="source"]').click()
-except:
-    pass
 @bot.message_handler(commands=['start'])
 def key(msg):
     q = types.InlineKeyboardMarkup()
