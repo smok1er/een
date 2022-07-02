@@ -26,7 +26,7 @@ def key(msg):
         bot.send_message(msg.chat.id, 'ارسل يوزرك 💚', reply_markup=markup)
     else:
         a = types.InlineKeyboardMarkup()
-        a1 = types.InlineKeyboardButton('المطور💚 ', url="https://t.me/Q5QQQQ")
+        a1 = types.InlineKeyboardButton('المطور💚 ', url="https://t.me/n_n_v")
         a.add(a1)
         bot.send_message(ch, 'يجب عليك الاشتراك اولا عن طريق ارسال الكود الى المطور ', reply_markup=a)
         bot.send_message(ch, f'كود الاشتراك الخاص بك : {ch}')
